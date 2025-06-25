@@ -1,0 +1,68 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Privacy Policy specific styles */
+  .privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .privacy-policy h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .privacy-policy p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy ul {
+    margin-bottom: 15px;
+  }
+  
+  .privacy-policy ul li {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  

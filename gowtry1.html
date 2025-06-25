@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aeroflow</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    @import url("https://media.npr.org/assets/img/2021/05/19/gettyimages-1232976886_wide-e0c4b25960852bb5dfebf98e174bfaf01a3877ec.jpg?s=1400");
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.god{width: 200px;
+background-color:width;
+}
+ .container-fluid {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+
+
+.container-fluid .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container-fluid .btn:hover {
+  background-color: black;
+}
+  body {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: tomato;
+}
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media (max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+  </style>
+</head>
+<body style="height:1500px">
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand"  href="Main bootstrap.html">HOME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="c3.html">BOOKING</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="Flights.html">FLIGHTS</a></li>
+		<li class="nav-item ">
+		<a class="nav-link" href="Contact.html">CONTACT</a></li>
+		<li class="nav-item ">
+		<a class="nav-link" href="About us.html">ABOUT US</a></li><div class="dropdown">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+      Ambions
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="models.html">Flights</a>
+      <a class="dropdown-item" href="airport.html">Airport</a>
+    </div>
+  </div>
+</ul>
+		<ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary" href="Login.html">Login</a>
+ 
+        </li>
+		</ul>
+    
+  </div>  
+</nav>
+<br>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="dubai.jpg"  width="1100" height="500">
+       
+    </div>
+    <div class="carousel-item">
+      <img src="los_angeles.jpg" width="1100" height="900">
+    </div>
+    <div class="carousel-item">
+      <img src="new_york.jpg" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!-- Menu Section -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Popular destinations</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="dubai.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Dubai</h5>
+              <a href="c3.html" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+		<div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="paris.jpg"  class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <a href="c3.html" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="new_york.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">New york</h5>
+              <a href="c3.html" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+	  </div>
+	  </section>
+	   <div class="hero-text">
+	   <h1 style="background-color:red;">Welcome to Aeroflow flight booking</h1><br><br>
+    <h2>You can order here for</h2>
+	<div class="container-fluid">
+  <a href="c3.html"><button class="btn" style = "background-color:green;">Order Online</button></a>
+</div>
+
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Quick link</h4>
+                <ul>
+                    <li><a href="About us.html">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="privacy.html">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our Service</h4>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="c3.html">Instant booking</a></li>
+                    <li><a href="#">Secure payments</a></li>
+                    <li><a href="#">24/7 Service</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="#">+56 19 1284 283</a></li>
+                    <li><a href="#">+93 18 4282 181</a></li>
+                    <li><a href="#">Aeroflow@gmail.com</a></li>
+                    <li><a href="#">Kalai@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="face"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
