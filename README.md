@@ -21,6 +21,6 @@ This project is intended for educational and demonstration purposes. All assets 
 ## Getting Started
 
 Clone the repository:
-  git clone https://github.com/kalaiyarasut/Flight-booking.git
+  git clone https://github.com/kalaiarasut/Flight-booking.git
   
 Simply open `Main bootstrap.html` in your browser to explore the site.
