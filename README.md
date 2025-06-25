@@ -20,8 +20,7 @@ This project is intended for educational and demonstration purposes. All assets 
 
 ## Getting Started
 
+Clone the repository:
+  git clone https://github.com/kalaiyarasut/Expense-tracker.git
+  
 Simply open `Main bootstrap.html` in your browser to explore the site.
-
----
-
-© 2024 Aeroflow. All Rights Reserved.
